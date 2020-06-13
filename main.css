@@ -1,0 +1,385 @@
+@font-face {
+  font-family: CustomFont;
+  src: url("./MADE_SAONARA_PERSONAL_USE[1].otf");
+}
+body {
+  background-color: black;
+  font-family: CustomFont;
+  /* box-sizing: border-box; */
+  color: white;
+}
+.container-fluid,
+.container {
+  margin-top: 100px;
+}
+#career {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.836),
+      rgb(0, 0, 0, 0.836)
+    ),
+    url("./career image.png");
+  height: 125vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 460px;
+}
+
+.overlayleft {
+  position: relative;
+  height: 750px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.76);
+}
+.overlayleft > div {
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+  z-index: 1;
+}
+.overlayleft > div > hr {
+  background-color: #f36a1a;
+  height: 2px;
+  width: 17%;
+  margin-bottom: 10%;
+  margin-top: -1%;
+}
+.overlayright {
+  position: relative;
+  height: 750px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.33);
+  background-position: center;
+  backdrop-filter: blur(50px);
+  backdrop-filter: brightness(3px);
+  backdrop-filter: opacity(0px);
+}
+.overlayright > h2 {
+  margin-top: 10%;
+  margin-left: 10%;
+  color: white;
+  z-index: 1;
+  margin-top: 50%;
+  margin-left: -30%;
+}
+.contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.836),
+      rgb(0, 0, 0, 0.836)
+    ),
+    url("./contactback.jpg");
+  height: 150vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 460px;
+}
+.contact > .row > .col-md-6 > div {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+/* #over{
+  
+    position: absolute;
+    height: 750px;
+    width: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+} */
+
+#car {
+  z-index: 1;
+  margin-top: 70%;
+  margin-left: -120%;
+  text-align: center;
+  width: 700px;
+}
+#car > hr {
+  width: 80%;
+  height: 0.1px;
+  background-color: white;
+}
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+    url("./robert-klank-yzHEoRSbixU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 150px;
+  padding-top: 100px;
+  min-width: 380px;
+  padding-bottom: 100px;
+}
+footer > .container-fluid > ul > li > a {
+  color: white;
+}
+/* for rightside icons */
+.leftbts {
+  position: fixed;
+  top: 40%;
+  left: -50px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0);
+  border-radius: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+.leftbts > a > img {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 40px;
+  margin-right: -2px;
+  color: white;
+}
+.rbottom {
+  position: fixed;
+  top: 70%;
+  right: 15px;
+  z-index: 1;
+  text-align: right;
+}
+.rbottom > ul > li > a {
+  color: white;
+  margin-bottom: 50px;
+}
+.rbottom > ul > li {
+  margin-bottom: 10px;
+}
+
+.form-group > input {
+  background-color: Transparent;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.rbottom > ul > li > a {
+  color: lightslategray;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+.rbottom > ul > li > a:hover {
+  color: white;
+}
+.rbottom > ul > li {
+  margin-bottom: 30px;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.836),
+      rgb(0, 0, 0, 0.836)
+    ),
+    url("./kbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#homehero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.76),
+      rgb(0, 0, 0, 0.76)
+    ),
+    url("./home\ page\ image\(First\ image\).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navimg {
+  width: 150px;
+  height: 70px;
+}
+
+#leadership {
+  height: 90vh;
+  max-height: 800px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.86),
+      rgb(0, 0, 0, 0.86)
+    ),
+    url("./matt\ horn\ 2.png");
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+}
+
+#leadership div {
+  height: 100%;
+}
+
+#storyleft {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.836),
+      rgb(0, 0, 0, 0.836)
+    ),
+    url("./Our\ Story\ \(Kowbird\ chicken\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ourStory {
+  /* background-image:linear-gradient(to right, rgba(0, 0, 0, 0.836) , rgb(0,0,0,0.836)),url('./Images/ourStory.jpg'); */
+  /*  linear-gradient(to left,#0000 50%,#ffffff 100%,0.8), */
+  width: 100vw;
+  height: 120vh;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+#matt_img {
+  background-image: url("./leadership.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.separator hr {
+  position: absolute;
+  z-index: 1;
+  width: 10%;
+  background-color: white;
+  height: 1px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.fade-in {
+  animation: fadeIn ease 15s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@font-face{
+  font-family: CustomFont ;
+  src: url("./MADE_SAONARA_PERSONAL_USE[1].otf");
+  
+}
+body{
+  background-color: black;
+  font-family: CustomFont;
+  /* box-sizing: border-box; */
+  color: white;
+}
+.container-fluid,.container{
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#career{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.836) , rgb(0,0,0,0.836)),url('./career image.png');
+  height:auto;
+  width:100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-width: 460px;
+  min-height: 100vh;
+}
+.contact{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.836) , rgb(0,0,0,0.836)),url('./contactback.jpg');
+  height:auto;
+  width:100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-width: 460px;
+}
+.contact>.row>.col-md-6>div{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.form-group>input{
+  background-color:Transparent ;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+.rbottom{
+  position: fixed;
+  top: 80%;
+  right: 5px;
+  z-index: 1;
+  text-align: right;
+ 
+}
+.rbottom>ul>li>a{
+  color: white;
+  margin-bottom: 50px;
+}
+.rbottom>ul>li{
+  margin-bottom: 10px;
+}
+.leftbts{
+  position: fixed;
+  top: 40%;
+  left: -50px;
+  z-index: 1;
+  background-color:rgba(0, 0, 0);
+  border-radius: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+.leftbts > a> img{
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+height:20px;
+width: 40px;
+margin-right: -2px;
+color: white;
+}
+#news{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./Image to use behind in news &media section in Horn barbrque page.png');
+  height: auto;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  position: relative;
+  background-position: left;
+  min-width: 460px;
+}
+
+@media only screen and (max-width: 600px) {
+#news{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./Image to use behind in news &media section in Horn barbrque page.png');
+  height: auto;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
+}
+.card{
+  max-width: 300px;
+  min-height: 300px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1050px) {
+  #mainHeading{
+    font-size:10vw;
+  }
+  #show1,#show2{
+    display:none;
+  }
+  #leadership{
+    background-size:100% 100%;
+  }
+  #leadership h1,h3,p{
+    font-size:5vw;
+  }
+}
