@@ -236,7 +236,6 @@ body{
   background-color: black;
   font-family: CustomFont;
   width:100vw;
-  overflow-x: hidden;
   color: white;
 }
 
@@ -319,8 +318,9 @@ body{
 }
 
 #centerimg2{
-  left:30%;
+  left:35%;
   bottom:20%;
+  width:30vw;
 }
 
 #leadershiptxt{
