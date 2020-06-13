@@ -327,7 +327,7 @@ body{
 }
 .rbottom{
   position: absolute;
-  top: 300px;
+  bottom: 100px;
   right: 5px;
   z-index: 1;
   text-align: right;
