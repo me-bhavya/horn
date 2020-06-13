@@ -403,3 +403,22 @@ body{
 #le{
   font-size: 30px;
 }
+.vl {
+  border-left: 1px solid white;
+  height: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .vl{
+    height: 0px;
+  }
+}
+#navbar {
+  position: fixed;
+  top: -200px;
+  width: 100%;
+  transition: top 0.5s;
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+}
+
+
