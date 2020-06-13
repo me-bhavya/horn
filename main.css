@@ -82,9 +82,29 @@
 }
 .contact > .row > .col-md-6 > div {
   margin-top: 30px;
-  margin-left: 10px;
+  margin-left: 200px;
 }
-
+.contact>.row{
+  padding-top: 90px;
+  margin-left: 70px;
+}
+#r{
+  padding-left:200px;
+  padding-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .contact>.row{
+    padding-top: 90px;
+  }
+  .contact > .row > .col-md-6 > div {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  #r{
+    margin-top: 30px;
+    margin-left: -150px;
+  }
+}
 /* #over{
   
     position: absolute;
@@ -297,18 +317,6 @@ body{
   background-repeat:no-repeat;
   min-width: 460px;
   min-height: 100vh;
-}
-.contact{
-  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.836) , rgb(0,0,0,0.836)),url('./contactback.jpg');
-  height:auto;
-  width:100%;
-  background-size:cover;
-  background-repeat:no-repeat;
-  min-width: 460px;
-}
-.contact>.row>.col-md-6>div{
-  margin-top: 30px;
-  margin-left: 10px;
 }
 .form-group>input{
   background-color:Transparent ;
