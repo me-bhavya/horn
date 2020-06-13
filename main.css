@@ -142,6 +142,7 @@ footer > .container-fluid > ul > li > a {
     url("./kbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position:center;
 }
 #homehero {
   height: 100vh;
@@ -312,8 +313,13 @@ body{
   margin-top: 20px;
 }
 
-#centerimg{
+#centerimg1{
   left:25%;
+  bottom:30%;
+}
+
+#centerimg2{
+  left:30%;
   bottom:20%;
 }
 
@@ -322,10 +328,14 @@ body{
 }
 
 @media screen and (max-width: 1050px) {
+  #centerimg2{
+    left:25%;
+    bottom:50%;
+  }
   #leadershiptxt{
     width:100%;
   }
-  #centerimg{
+  #centerimg1{
     left:-5%;
     bottom:30%;
   }
