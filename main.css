@@ -283,7 +283,7 @@ body{
   border-left-style: hidden;
 }
 .rbottom{
-  position: fixed;
+  position: absolute;
   top: 60%;
   right: 5px;
   z-index: 1;
