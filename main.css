@@ -231,6 +231,12 @@ footer > .container-fluid > ul > li > a {
   background-repeat: no-repeat;
 }
 
+#kim_img{
+    background-image: url("./president.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
 .separator hr {
   position: absolute;
   z-index: 1;
