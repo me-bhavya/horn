@@ -235,7 +235,7 @@ body{
   background-color: black;
   font-family: CustomFont;
   width:100vw;
-  /* box-sizing: border-box; */
+  overflow-x: hidden;
   color: white;
 }
 
@@ -317,7 +317,14 @@ body{
   bottom:20%;
 }
 
-@media only screen and (max-width: 1050px) {
+#leadershiptxt{
+  width:250%;
+}
+
+@media screen and (max-width: 1050px) {
+  #leadershiptxt{
+    width:100%;
+  }
   #centerimg{
     left:-5%;
     bottom:30%;
@@ -330,12 +337,14 @@ body{
   }
   #leadership{
     background-size:100% 100%;
+    width:100vw;
   }
   #leadership h1,h3,p{
     font-size:5vw;
   }
   #ourStory{
     flex-direction: column;
+    width:100vw;
   }
   #storyleft{
     height:20vh;
