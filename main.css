@@ -144,6 +144,21 @@ footer > .container-fluid > ul > li > a {
   background-repeat: no-repeat;
   background-position:center;
 }
+
+#hero2 {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.836),
+      rgb(0, 0, 0, 0.836)
+    ),
+    url("./hornbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
 #homehero {
   height: 100vh;
   width: 100%;
