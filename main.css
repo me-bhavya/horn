@@ -194,6 +194,17 @@ footer > .container-fluid > ul > li > a {
   height: 100%;
 }
 
+#storyLeft2{
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.836),
+      rgb(0, 0, 0, 0.836)
+    ),
+    url("./spices.jpeg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
 #storyleft {
   background-image: linear-gradient(
       to right,
@@ -372,7 +383,7 @@ body{
     flex-direction: column;
     width:100vw;
   }
-  #storyleft{
+  #storyleft,#storyLeft2{
     height:20vh;
   }
   #ourStory div h1{
