@@ -211,7 +211,7 @@ footer > .container-fluid > ul > li > a {
       rgb(0, 0, 0, 0.86)
     ),
     url("./matt\ horn\ 2.png");
-  background-size: 60% 100%;
+  background-size: 50% 100%;
   background-repeat: no-repeat;
 }
 
@@ -227,21 +227,21 @@ footer > .container-fluid > ul > li > a {
     ),
     url("./Our\ Story\ \(Kowbird\ chicken\).png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:100% 100%;
 }
 
 #ourStory {
   /* background-image:linear-gradient(to right, rgba(0, 0, 0, 0.836) , rgb(0,0,0,0.836)),url('./Images/ourStory.jpg'); */
   /*  linear-gradient(to left,#0000 50%,#ffffff 100%,0.8), */
   width: 100vw;
-  height: 120vh;
+  height: auto;
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
 }
 
 #matt_img {
   background-image: url("./leadership.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -369,7 +369,16 @@ color: white;
   margin-top: 20px;
 }
 
+#centerimg{
+  left:25%;
+  bottom:20%;
+}
+
 @media only screen and (max-width: 1050px) {
+  #centerimg{
+    left:-5%;
+    bottom:30%;
+  }
   #mainHeading{
     font-size:10vw;
   }
@@ -381,5 +390,24 @@ color: white;
   }
   #leadership h1,h3,p{
     font-size:5vw;
+  }
+  #ourStory{
+    flex-direction: column;
+  }
+  #storyleft{
+    height:20vh;
+  }
+  #ourStory div h1{
+    font-size:small;
+  }
+  #storytext{
+    width:100%;
+    padding:0 !important;
+    margin:0% !important;
+  }
+  #storytext p{
+    font-size:small;
+    padding:20px !important;
+    margin:0% !important;
   }
 }
