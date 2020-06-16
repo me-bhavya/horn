@@ -1,0 +1,108 @@
+/**************************************************** Start: Generic/Common CSS ****************************************/
+/* Here come common, generic animation etc class*/
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/**************************************************** End: Generic/Common CSS ****************************************/
+
+/**************************************************** Start: Page 1 ****************************************/
+/*
+|---------------------------------------
+|	Start: Landing Section
+|---------------------------------------
+*/
+header{
+   
+}
+
+/* Start: home-cnt */
+.home-cnt{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; 
+    height: 80vh;
+}
+
+.home-cnt-txt{
+    text-align: center;
+}
+
+/* Start: home-cnt */
+
+/* Start: home-left-tab */
+
+.home-left-tab {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    width: 100%;
+    bottom: 25%;
+}
+
+.home-left-tab-list {
+    display: block;
+    flex:1;
+    margin: 10px 0px !important;
+    text-align: right;
+}
+
+.home-left-tab-list a {
+    color:#fff;
+}
+
+/* End: home-left-tab */
+
+/* Start: home-scroll-bar */
+
+.home-scroll-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    right: 0;
+}
+
+.home-scroll-bar-list{
+    
+}
+
+.home-scroll-bar hr{
+    margin-top:20px !important;
+    width: 80px;
+    height: 1px;
+    background-color: white;
+}
+/* End: home-scroll-bar */
+
+/*
+|---------------------------------------
+|	End: Landing Section
+|---------------------------------------
+*/
+
+/*
+|---------------------------------------
+|	Start: Contact Section
+|---------------------------------------
+*/
+
+
+/*
+|---------------------------------------
+|	End: Contact Section
+|---------------------------------------
+*/
+/**************************************************** End: Page 1 ****************************************/
+/**************************************************** Start: Page 2 ****************************************/
+
+
+/**************************************************** End: Page 2 ****************************************/
+/**************************************************** Start: Page 3 ****************************************/
+
+
+/**************************************************** End: Page 3 ****************************************/

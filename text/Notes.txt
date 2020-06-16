@@ -1,0 +1,8 @@
+1) Will not used margin, padding left or right. top bottom allow to use.
+2) media query will use to change
+	- font size
+	- text alignment
+	- top bottom margin and padding
+	* Never use left and right mrgin padding
+3) move css from main.css to style.css and responsive.css
+4) try to follow meaning full naming convention
